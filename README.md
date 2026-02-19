@@ -2,14 +2,14 @@
 AI & ML Internship - task 5-Decision tree-randomforest
 
 
-📌 Objective
+_ Objective_
 
 The objective of this task is to understand and implement tree-based machine learning models for classification.
 In this project, I trained and evaluated a Decision Tree Classifier and a Random Forest Classifier using the Breast Cancer dataset.
 
 
 
-📊 Dataset Used
+> Dataset Used
 
 
 
@@ -24,7 +24,7 @@ Target Variable: Malignant (0) / Benign (1)
 
 
 
-🛠 Tools & Libraries Used
+> Tools & Libraries Used
 
 
 
@@ -43,7 +43,7 @@ Seaborn
 Scikit-learn
 
 🔹 Steps Performed
-1️⃣ Data Loading
+1️> Data Loading
 
 
 
@@ -52,13 +52,13 @@ Loaded the Breast Cancer dataset using load_breast_cancer()
 
 Converted it into a Pandas DataFrame
 
-2️⃣ Train-Test Split
+2️> Train-Test Split
 
 
 
 Split data into 80% training and 20% testing
 
-3️⃣ Decision Tree Model
+3️> Decision Tree Model
 
 
 
@@ -68,7 +68,7 @@ Evaluated accuracy on test data
 
 Visualized the tree structure
 
-4️⃣ Overfitting Control
+4️> Overfitting Control
 
 
 
@@ -76,7 +76,7 @@ Limited tree depth using max_depth=3
 
 Compared performance with full tree
 
-5️⃣ Random Forest Model
+5️> Random Forest Model
 
 
 
@@ -84,7 +84,7 @@ Trained Random Forest Classifier
 
 Compared accuracy with Decision Tree
 
-6️⃣ Feature Importance
+6️> Feature Importance
 
 
 
@@ -92,7 +92,7 @@ Extracted feature importance from Random Forest
 
 Visualized top important features
 
-7️⃣ Cross Validation
+7️> Cross Validation
 
 
 
@@ -100,7 +100,7 @@ Performed 5-fold cross-validation
 
 Calculated mean accuracy score
 
-📈 Results
+. Results
 
 
 
@@ -112,7 +112,7 @@ Random Forest performed better and more stable.
 
 Cross-validation confirmed consistent model performance.
 
-🧠 Key Learnings
+. Key Learnings
 
 
 
@@ -126,9 +126,9 @@ Importance of feature importance analysis.
 
 How to evaluate models using cross-validation.
 
-📂 Project Structure
+> Project Structure
 
 
-🚀 Conclusion
+> Conclusion
 
 Random Forest provides better generalization compared to a single Decision Tree. Ensemble learning improves stability and accuracy of the model.
